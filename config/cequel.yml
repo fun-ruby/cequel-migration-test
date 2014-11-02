@@ -1,0 +1,20 @@
+development:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: cequel_migration_dev
+  max_retries: 3
+  retry_delay: 0.5
+
+test:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: cequel_migration_test
+  max_retries: 3
+  retry_delay: 0.5
+
+production:
+  host: '127.0.0.1'
+  port: 9042
+  keyspace: cequel_migration_dev
+  max_retries: 3
+  retry_delay: 0.5
